@@ -3,3 +3,40 @@ img.dood {
   left: 500px;
   top: 82px;
 }
+
+img.pumpkin {
+    position: absolute;
+    left: 800px;
+    top: 230ppx;      
+}
+
+img.spider {
+    position: absolute;
+    left: 1000px;
+    top: 450px;
+}
+
+img.alien {
+    position: absolute;
+    left: 530px;
+    top: 550px;
+    
+}
+
+.toggle {
+    position: absolute;
+    left: 720px;
+}
+
+.hip {
+    position: absolute;
+    left: 720px;
+    top: 455px;
+}
+
+img.russian {
+    position: static;
+    left: 650px;
+    top: 500px;
+    
+}
