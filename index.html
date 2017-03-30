@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="file.css">
-    
+    <title>Collection of Dancing.</title>
     
     </head>
 
@@ -12,11 +12,41 @@
 src="https://im2.ezgif.com/tmp/ezgif-2-59f585494c.gif" alt="A guy that is so good at dancing it litterally works
 for any song."/>
         
+        <img class="pumpkin"
+             src="pumpkin.gif"  alt="Pumpkin guys is best :^)"/>
         
-        <audio autoplay>
-  <source src="song.mp3" type="audio/mpeg">
-  Sucks. Your browser does not support the audio element.
-</audio>
+<img class="russian"
+     src="russian.gif" alt="Mother Russia?"/>
+        
+        <img class="spider"
+             src="large.gif" alt="Wth lol :^)"/>
+        <img class="alien"
+             src="alien.gif" alt="Lean Green Machine"/>
+        
+       <audio id="background_audio" autoplay="autoplay">
+  <source src="song.mp3" />
+</audio> 
+
+        <div class=toggle>
+            <button href="#noscroll" id="mute">Toggle The Stars?</button></div>
+        
+        <script>var audio = document.getElementById('background_audio');
+
+document.getElementById('mute').addEventListener('click', function (e)
+{
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false);</script>
+
+        
+            
+<audio id="sound1" src="1.mp3" preload="auto"></audio>
+        <div class="hip"><button onclick="document.getElementById('sound1').play();">Hip Music?</button></div>
+  
+        
+        
+        
 
 
 
@@ -28,6 +58,7 @@ for any song."/>
 
 
 </html>
+
 
 
 
